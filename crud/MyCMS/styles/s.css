@@ -1,0 +1,62 @@
+body{
+     background-image: 100%;
+     margin: 0;
+
+}
+#header{
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    
+}
+#header img{
+    float: left;
+}
+#header ul{
+    float:left;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+#but{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-decoration: none;
+    color: yellow;
+
+}
+#footer{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color:red;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #c7d6e3 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #c7d6e3 5%, #63b8ee 100%);
+	background-color:#c7d6e3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
