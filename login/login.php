@@ -5,18 +5,26 @@
 	$dbname='admin';
 
 $con=mysqli_connect($servername,$username,$password,$dbname);
+if(isset($_POST['submit'])){
 	$username=$_POST['username'];
-	$password=$_POST['password'];
-
-	$sql="select* from login where username='".$username."' and password='".$password."'limit 1 ";
+	 $password=$_POST['password'];
+}
+	$sql="select * from login where username='$username' and password='$password'";
 	$result= mysqli_query($con,$sql);
-	$row= mysqli_fetch_array($result);
+	$num_row=mysqli_num_rows($result);
+    if($num_row != 0)
+    { 
+		echo '<script type="text/javascript">
 
-	if($row['username']==$username && $row['password']==$password){
-		header("Location:../crud/welcadmin.php");
-	}
-	else{
-		echo "You have entered wrong details";
-	}
+          window.onload = function () { alert("Logged In Successfully"); }
 
+		   </script>';
+		   sleep(2);
+        //$_SESSION['username']=$username;
+         header('Location:../crud/welcadmin.php');
+	}
+	else {
+		//echo "Invalid Crudentials";
+		header('Location:.');
+	}
 ?>

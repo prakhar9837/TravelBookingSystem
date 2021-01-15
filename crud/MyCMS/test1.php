@@ -25,7 +25,7 @@ require_once('config.php');
  <body background="images/pay.png">
  <h1 style="text-align: center; margin-top: 0px">Make payment to complete Booking! </h1>
       
-
+  <h2>Rs. 999</h2>
      <form action="charge.php" method="post">
        
        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"

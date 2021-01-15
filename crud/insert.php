@@ -124,7 +124,7 @@ if(isset($_POST['done'])){
  </div>
 
  <div class="inputBox">
- <input type="password" name="password" required="">
+ <input type="password" name="password" required="" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
  <label> Password: </label>
  </div>
 
@@ -135,3 +135,6 @@ if(isset($_POST['done'])){
 </div>
   </body>
 </html>
+
+
+<!-- [a-z0-9. %+-]+@[a-z0-9.-]+\.[a-z]{2,}$ -->

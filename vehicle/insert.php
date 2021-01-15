@@ -96,7 +96,7 @@ if(isset($_POST['done'])){
  </div>
  
  <div class="inputBox">
- <input type="text" name="numberplate" required="" pattern="[A-Za-z]{1,}">
+ <input type="text" name="numberplate" required="">
  <label> Number Plate: </label>
  </div>
 

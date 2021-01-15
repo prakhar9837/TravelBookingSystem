@@ -38,7 +38,7 @@
 
 		</div>
 	</div>
-	<button class="btn btn-secondary flight" style="margin-left: 545px; margin-top:10px;">Back</button>
-</form>
+	</form>
+	<button class="btn btn-secondary flight" style="margin-left: 525px; margin-top:10px;"><a href="/project/crud/MyCMS/index.php" style="color: red;">HomePage</a></button>
 </body>
 </html>

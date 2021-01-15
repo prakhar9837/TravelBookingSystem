@@ -1,4 +1,4 @@
-
+<!-- 
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +19,7 @@
  <br><br><div class="card">
  
  <div class="card-header bg-dark">
- <h1 class="text-white text-center"> Register User </h1>
+ <h1 class="text-white text-center">Register User</h1>
  </div><br>
 
  <label> Username: </label>
@@ -36,7 +36,7 @@
  <label> Phone: </label>
  <input type="text" name="phone" class="form-control"> <br>
 
- <!--<a <input type="submit" name="done"> Submit </a><br>-->
+ <a <input type="submit" name="done"> Submit </a><br>
   <td colspan="6" align="left"><input type="submit" name="done" /></td>
 
  </div>
@@ -44,4 +44,51 @@
  </div>
  <h1 style="text-align: center;"><a href="../crud/MyCMS/index.php" class="myButton">Go to Homepage</a></h1>
 </body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register User</title>
+    <link rel="stylesheet" href="styles123.css">
+  </head>
+  <body>
+<div class="box">
+  <h2>User Registration</h2>
+  <form method="post" action="randuser.php">
+
+<div class="inputBox">
+ <input type="text" name="name" required="" pattern="[A-Za-z]{1,}">
+ <label> Name:  </label>
+ </div>
+ 
+ <div class="inputBox">
+ <input type="text" name="address" required="" pattern="[A-Za-z]{1,}">
+ <label> Location: </label>
+ </div>
+
+ <div class="inputBox">
+ <input type="text" name="email" required="">
+ <label> Email: </label>
+ </div>
+
+ <div class="inputBox">
+ <input type="text" name="uname" required=""> 
+ <label> Username: </label>
+</div>
+
+ <div class="inputBox">
+ <input type="password" name="password" required="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"> 
+ <label> Password: </label>
+</div>
+ 
+<input type="submit" name="done" value="Submit">
+  </form>
+
+<h3 style="text-align: center; text-color: red;"><a href="login.php">BACK</a></h3>
+</div>
+  </body>
 </html>

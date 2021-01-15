@@ -15,17 +15,17 @@
  <div id="header">
  <img src="./images/logo.jpg" height="50px" width="100px">
  <ul><a href="#" style="color: #FFCCCB; text-decoration: none;">HOME</a></ul>
- <ul><a href="../../user/login.html" style="color: #FFCCCB; text-decoration: none;">Customer Login</a></ul>
+ <ul><a href="../../user/login.php" style="color: #FFCCCB; text-decoration: none;">Customer Login</a></ul>
  <ul><a href="./includes/contact.html" style="color: #FFCCCB; text-decoration: none;">CONTACT US</a></ul>
  <ul><a href="./includes/faq.html" style="color: #FFCCCB; text-decoration: none;">FAQ</a></ul>
  </div><br>
  <div>
  	<h1 style="text-align: center;color: red;">HURRY!!!Travel @999 ONLY!!!</h1>
  </div>
- <div id="but" style="background-color: rgba(0,0,0,.5); width:30%; margin:auto;">
+ <div id="but" style="background-color: rgba(0,0,0,.5); width:30%; margin:auto;"><br><br><br><br><br><br>
      <h1 style="color:yellow"><a href="../../login/index.php" class="myButton">ADMIN LOGIN</a></h1><br><br><br>
-     <h1><a href="../booktravel.php" class="myButton">BOOK NOW</a></h1><br><br><br>
-     <h1><a href="../../login/emplogin.php"class="myButton">EMPLOYEE LOGIN</a></h1><br><br><br>
+     <!-- <h1><a href="../booktravel.php" class="myButton">BOOK NOW</a></h1><br><br><br> -->
+     <h1><a href="../../login/emplogin.php"class="myButton">EMPLOYEE LOGIN</a></h1><br><br><br><br><br><br>
      <!-- <h1><a href="../../user/insert.php" class="myButton">Register yourself</a></h1><br><br><br> -->
  </div>
  <div id="footer">
